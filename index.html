@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechFix — сервисный центр по ремонту и настройке компьютеров в Бишкеке (учебный сайт)">
+    <title>TechFix — сервисный центр компьютерной техники</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта и меню -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#home" class="logo">Tech<span>Fix</span></a>
+            <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav" id="nav">
+                <a href="#home">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#services">Услуги</a>
+                <a href="#faq">Вопросы</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Главный экран -->
+        <section class="hero" id="home">
+            <div class="container hero__inner">
+                <div class="hero__text">
+                    <p class="hero__label">Сервисный центр в Бишкеке</p>
+                    <h1>Ремонт и настройка компьютеров за 1 день</h1>
+                    <p>Починим ноутбук, настроим Wi-Fi и защитим ваши данные. Бесплатная диагностика и гарантия на все работы.</p>
+                    <a href="#contacts" class="btn">Оставить заявку</a>
+                </div>
+                <img src="images/hero.jpg" alt="Ноутбук и инструменты для ремонта" class="hero__img">
+            </div>
+        </section>
+
+        <!-- О нас -->
+        <section class="section" id="about">
+            <div class="container about">
+                <h2>О нас</h2>
+                <p>TechFix — небольшой сервисный центр, который помогает студентам, семьям и малому бизнесу. Мы работаем с 2020 года и за это время отремонтировали более 3 000 устройств. Наши мастера ремонтируют ноутбуки и компьютеры, настраивают домашние и офисные сети и устанавливают программы. Перед ремонтом мы бесплатно проводим диагностику и честно называем стоимость. На все работы даём гарантию 3 месяца.</p>
+                <div class="stats">
+                    <div class="stat"><b data-count="3000">0</b><span>устройств отремонтировано</span></div>
+                    <div class="stat"><b data-count="6">0</b><span>лет работы</span></div>
+                    <div class="stat"><b data-count="98">0</b><span>% довольных клиентов</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section class="section section--gray" id="services">
+            <div class="container">
+                <h2>Наши услуги</h2>
+                <div class="cards">
+                    <article class="card">
+                        <img src="images/service1.jpg" alt="Ремонт ноутбука">
+                        <div class="card__body">
+                            <h3>Ремонт ноутбуков и ПК</h3>
+                            <p>Замена экрана, клавиатуры, аккумулятора, чистка от пыли, замена термопасты.</p>
+                            <p class="price">от 800 сом</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/service2.jpg" alt="Настройка сети">
+                        <div class="card__body">
+                            <h3>Настройка сети и Wi-Fi</h3>
+                            <p>Подключение роутера, настройка Wi-Fi, локальной сети и принтеров в офисе или дома.</p>
+                            <p class="price">от 600 сом</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/service3.jpg" alt="Защита данных">
+                        <div class="card__body">
+                            <h3>Защита и восстановление данных</h3>
+                            <p>Удаление вирусов, установка антивируса, резервное копирование и восстановление файлов.</p>
+                            <p class="price">от 700 сом</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Частые вопросы (раскрывающиеся блоки) -->
+        <section class="section" id="faq">
+            <div class="container faq">
+                <h2>Частые вопросы</h2>
+                <div class="faq__item">
+                    <button class="faq__q">Сколько стоит диагностика?</button>
+                    <div class="faq__a"><p>Диагностика бесплатная, даже если вы откажетесь от ремонта.</p></div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__q">Сколько длится ремонт?</button>
+                    <div class="faq__a"><p>Большинство работ выполняем в течение одного дня. Если нужна запчасть под заказ — от 3 до 7 дней.</p></div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__q">Есть ли гарантия?</button>
+                    <div class="faq__a"><p>Да, на все работы и установленные запчасти действует гарантия 3 месяца.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты и форма заявки -->
+        <section class="section section--gray" id="contacts">
+            <div class="container contacts">
+                <div>
+                    <h2>Контакты</h2>
+                    <ul class="contacts__list">
+                        <li><b>Адрес:</b> г. Бишкек, ул. Учебная, 1 (учебные данные)</li>
+                        <li><b>Телефон:</b> +996 (000) 00-00-00</li>
+                        <li><b>E-mail:</b> info@techfix.example</li>
+                        <li><b>Режим работы:</b> Пн–Сб, 9:00–19:00</li>
+                    </ul>
+                </div>
+                <form class="form" id="form" novalidate>
+                    <h3>Оставить заявку</h3>
+                    <input type="text" id="name" placeholder="Ваше имя">
+                    <input type="tel" id="phone" placeholder="Телефон">
+                    <textarea id="message" rows="3" placeholder="Что случилось с устройством?"></textarea>
+                    <button type="submit" class="btn">Отправить</button>
+                    <p class="form__msg" id="formMsg"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 TechFix. Учебный сайт, выполнен в рамках лабораторной работы.</p>
+            <button class="to-top" id="toTop" aria-label="Наверх">↑</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
