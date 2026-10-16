@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e2850"/><stop offset="1" stop-color="#081428"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <rect width="1400" height="800" fill="url(#bg)"/>
+  <circle cx="1100" cy="150" r="260" fill="#36a3ff" opacity=".45" filter="url(#blur)"/>
+  <circle cx="250" cy="700" r="220" fill="#72e0c4" opacity=".35" filter="url(#blur)"/>
+  <rect x="430" y="170" width="540" height="350" rx="24" fill="#1e293b" stroke="#94a3b8" stroke-width="6"/>
+  <rect x="460" y="200" width="480" height="290" rx="10" fill="#0f76cd"/>
+  <rect x="500" y="240" width="300" height="22" rx="8" fill="#bae6fd"/>
+  <rect x="500" y="295" width="380" height="22" rx="8" fill="#7dd3fc"/>
+  <rect x="500" y="350" width="220" height="22" rx="8" fill="#7dd3fc"/>
+  <rect x="500" y="405" width="330" height="22" rx="8" fill="#7dd3fc"/>
+  <polygon points="360,540 1040,540 990,600 410,600" fill="#475569"/>
+  <rect x="640" y="555" width="120" height="20" rx="8" fill="#1e293b"/>
+  <line x1="990" y1="560" x2="1120" y2="430" stroke="#facc15" stroke-width="34"/>
+  <circle cx="1140" cy="430" r="50" fill="#facc15"/><circle cx="1147" cy="423" r="22" fill="#081428"/>
+  <g fill="#72e0c4" transform="translate(300 330)">
+    <rect x="-22" y="-112" width="44" height="44" rx="6"/><rect x="-22" y="68" width="44" height="44" rx="6"/>
+    <rect x="-112" y="-22" width="44" height="44" rx="6"/><rect x="68" y="-22" width="44" height="44" rx="6"/>
+    <rect x="-22" y="-112" width="44" height="44" rx="6" transform="rotate(45)"/><rect x="-22" y="68" width="44" height="44" rx="6" transform="rotate(45)"/>
+    <rect x="-112" y="-22" width="44" height="44" rx="6" transform="rotate(45)"/><rect x="68" y="-22" width="44" height="44" rx="6" transform="rotate(45)"/>
+    <circle r="90"/><circle r="35" fill="#0e2850"/>
+  </g>
+</svg>
